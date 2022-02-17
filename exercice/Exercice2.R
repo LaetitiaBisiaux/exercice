@@ -10,8 +10,7 @@ catch <- read_excel("data/raw/catch.xlsx", sheet = 1) %>%
 
 ggplot(data = catch,
        aes(x = year,
-           y = total,
-           fill = total))+
+           y = total))+
   geom_bar(stat = "identity",
            width=0.8)+
   labs(x = "year",
