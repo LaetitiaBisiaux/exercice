@@ -25,3 +25,7 @@ idh %>% filter(grepl("orea", Country)) %>% select(Country) %>% distinct()
 write.xlsx(data, "output/data/results.xlsx")
 
 print(idh)
+
+print(idh)
+
+print(idh)
